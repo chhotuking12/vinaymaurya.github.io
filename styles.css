@@ -1,0 +1,112 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, form, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font family for the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the container and add some padding */
+.container {
+    max-width: 1100px;
+    box-sizing: border-box;
+  	margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  
+}
+
+/* Style page titles */
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style form groups (labels and inputs) */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea,
+.form-group table {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style radio buttons and labels */
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Style buttons */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style error messages */
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+/* Additional styles for specific pages can be added here */
+h4 {
+    
+    color: #007bff;
+    margin-bottom: 20px;
+}
